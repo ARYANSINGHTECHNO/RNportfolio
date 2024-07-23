@@ -99,3 +99,8 @@ var mySwiper = new Swiper(".swiper-container", {
     nextEl: ".swiper-button-next",
   },
 });
+
+var loader = document.querySelector(".loader");
+window.addEventListener("load", function () {
+  loader.style.display = "none";
+});
